@@ -172,6 +172,8 @@ background-position:center;
 background-size: cover;
 position: relative;
 }
+
+
 .logo{
     width: 40px;
 }
@@ -287,20 +289,26 @@ padding: 10px 10px;
 }
 .discrip{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
-    float:inline-start;
     font-size: 40px;
     font-style:normal;
     padding: 4px 6px;
     color: white;
 }
 h1{
- color: white;
     align-items: center;
     font-size: 60px;
     padding: 4px 6px;
  border: 3px dotted red;
  outline: 5px solid #d4f326;   
+ color: white;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    background-color: #eef6ee;
 }
 
 h2{
@@ -323,6 +331,10 @@ nav.fa{
     display: none;
 }
 
+.uqlf-homebg{
+    display: flex;
+    justify-content: center;
+}
 
 .index{
     display:flex;
@@ -360,6 +372,9 @@ table, th, td {
 
 }
 src{
+    display: flex;
+justify-content: center;
+align-items: center;
     width: 50px;
 }
   
@@ -399,6 +414,16 @@ src{
         border-radius: 10px;
     margin-bottom: 20px;
     gap: 5px;
+}
+
+#Terms-Conditions hr{
+    border: none;
+    width: 250px;
+    height: 6px;
+    background-color:#fff;
+        border-radius: 10px;
+    margin-bottom: 20px;
+    gap: 15px;
 }
 .contact-inputs{
     display: flex;
@@ -475,6 +500,20 @@ src{
     display: flex;
     width: 50px;
     border-radius: 50%; 
+    }
+    .Terms-Conditions{
+        display: flex;
+       justify-content: center;
+       line-height: 50px;
+        min-height: 100vh;
+        width: 100%;
+        color: white;
+        background: linear-gradient(90deg,#AA60C8,#FF8383);
+    background-position:center;
+    background-size: cover;
+    position: relative;
+    font-size: 25px;
+    gap: 10px;
     }
     
 @media(max-width:360px){
