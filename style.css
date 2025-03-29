@@ -296,6 +296,7 @@ padding: 10px 10px;
     font-style:normal;
     padding: 4px 6px;
     color: black;
+    background: linear-gradient(90deg,#AA60C8,#FF8383);
 }
 h1{
     align-items: center;
